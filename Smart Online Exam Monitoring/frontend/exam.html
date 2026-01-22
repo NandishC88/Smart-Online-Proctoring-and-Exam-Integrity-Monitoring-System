@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Online Examination</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h2>Online Examination</h2>
+
+<!-- Timer -->
+<p>Time Left: <span id="timer">10:00</span></p>
+
+<!-- Webcam -->
+<video id="video" autoplay muted></video>
+
+<!-- Questions -->
+<div class="question-box">
+    <p>1. What is AI?</p>
+    <input type="radio" name="q1"> Artificial Intelligence<br>
+    <input type="radio" name="q1"> Automatic Interface<br>
+</div>
+
+<button onclick="submitExam()">Submit Exam</button>
+
+<script src="script.js"></script>
+</body>
+</html>
+
